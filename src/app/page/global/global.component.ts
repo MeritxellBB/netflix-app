@@ -7,10 +7,10 @@ import { NetflixModel } from './models/netflix-model';
   styleUrls: ['./global.component.scss']
 })
 export class GlobalComponent implements OnInit {
+  public netflixModel : NetflixModel;
+  
 
-public netflixModel : NetflixModel;
-
-  constructor() { 
+  constructor() {
     this.netflixModel = {
       nav: {
         title: "Warner Live",
@@ -42,33 +42,32 @@ public netflixModel : NetflixModel;
           alt: "",
         }
       ]
-    },
-    comedy: {
-      title: "Comedias",
-      imgGallery: [{
-        src: "",
-        alt: "",
       },
-     {
-        src: "",
-        alt: "",
+      comedy: {
+        title: "Comedias",
+        imgGallery: [{
+          src: "",
+          alt: "",
+        },
+       {
+          src: "",
+          alt: "",
+        },
+        {
+          src: "",
+          alt: "",
+        },
+        {
+          src: "",
+          alt: "",
+        },
+        {
+          src: "",
+          alt: "",
+        }
+      ]
       },
-      {
-        src: "",
-        alt: "",
-      },
-      {
-        src: "",
-        alt: "",
-      },
-      {
-        src: "",
-        alt: "",
-      }
-    ]
-  },
-
-  drama: {
+      drama: {
     title: "Dramas basados en libros",
     imgGallery: [{
       src: "",
@@ -91,8 +90,10 @@ public netflixModel : NetflixModel;
       alt: "",
     }
   ]
-},
-  ngOnInit(): void {}
-
-}
+      },
+    }
   }
+ 
+    
+  ngOnInit(): void {}
+} 

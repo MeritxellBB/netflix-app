@@ -1,6 +1,6 @@
 export interface NetflixModel {   
     nav: Nav;
-    hero; Hero;
+    hero: Hero;
     drama: Drama;
     comedy: Comedy; 
 }
@@ -29,3 +29,4 @@ export interface Comedy {
 export interface Drama {
     title: string;
     imgGallery: Img[];
+}
