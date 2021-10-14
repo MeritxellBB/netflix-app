@@ -15,7 +15,7 @@ export class GlobalComponent implements OnInit {
       nav: {
         title: "Warner Live",
         logo: {
-          src: "",
+          src: "/assets/wl.png",
           alt: "",
         }
       },
