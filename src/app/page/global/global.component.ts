@@ -22,23 +22,23 @@ export class GlobalComponent implements OnInit {
       hero: {
         title: "Los 5 más populares hoy",
         imgGallery: [{
-          src: "",
+          src: "/assets/ultimobaile.PNG",
           alt: "",
         },
        {
-          src: "",
+          src: "/assets/atresmetros.PNG",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/dangerouslife.PNG",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/yonunca.PNG",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/thelast.PNG",
           alt: "",
         }
       ]
@@ -46,23 +46,27 @@ export class GlobalComponent implements OnInit {
       comedy: {
         title: "Comedias",
         imgGallery: [{
-          src: "",
+          src: "/assets/tagppal.jpg",
           alt: "",
         },
        {
-          src: "",
+          src: "/assets/elgranstan.jpg",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/sherlock.jpg",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/nochedejuegos.jpg",
           alt: "",
         },
         {
-          src: "",
+          src: "/assets/salidosdecuentas.jpg",
+          alt: "",
+        },
+        {
+          src: "/assets/noviaporcontrato.jpg",
           alt: "",
         }
       ]
@@ -70,26 +74,31 @@ export class GlobalComponent implements OnInit {
       drama: {
     title: "Dramas basados en libros",
     imgGallery: [{
-      src: "",
+      src: "/assets/loscien.jpg",
       alt: "",
     },
    {
-      src: "",
+      src: "/assets/americancrimestory.jpg",
       alt: "",
     },
     {
-      src: "",
+      src: "/assets/mindhunter.jpeg",
       alt: "",
     },
     {
-      src: "",
+      src: "/assets/alteredcarbon.jpg",
       alt: "",
     },
     {
-      src: "",
+      src: "/assets/portrecerazones.jpeg",
+      alt: "",
+    },
+    {
+      src: "/assets/thewitcher.jpg",
       alt: "",
     }
   ]
+
       },
     }
   }

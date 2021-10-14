@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container a {
+    margin: 5px;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container h1 {
+    display: none;
+}
+.nav-container img {
+    height: 40px;
+}
+
+@media (min-width: 1280px) {
+    .nav-container h1 {
+      display: initial;
+      color: #f5f5f5;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+}
